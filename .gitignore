@@ -1,4 +1,6 @@
 *.sqlite
+column_list.psm1
+insert-query.psm1
 #################
 ## Eclipse
 #################
