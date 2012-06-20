@@ -8,6 +8,10 @@ psadaudits is v0.0.1 6/19/12
 * Performance *Experiments with transactions showed no benefit but added complexity. I'm looking for suggestions to speed this up. It's painfully slow right now.*
 
 **Changelog
+Version 0.2.1 6/20/12
+* Checking for $dbdir
+* De-personalized. It might even run on someone else's machine now! ;)
+
 Version 0.2.0 6/20/12
 * Added Change detection
 * Added error handling / alerting to write_adusers
