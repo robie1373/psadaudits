@@ -12,6 +12,9 @@
 * Performance *Experiments with transactions showed no benefit but added complexity. I'm looking for suggestions to speed this up. It's painfully slow right now.*
 
 ## Changelog
+### Version 0.3.1 6/21/12
+* Checks for sqlite module
+
 ### Version 0.3.0 6/20/12
 * Checking executionpolicy and giving advice
 * All wrapped up in a pretty one-file wrapper
