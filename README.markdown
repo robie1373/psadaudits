@@ -12,6 +12,9 @@
 * Performance *Experiments with transactions showed no benefit but added complexity. I'm looking for suggestions to speed this up. It's painfully slow right now.*
 
 ## Changelog
+### Version 0.3.2 6/25/12
+* bugfix. column_list and insert-query were being created and looked for in different / wrong places.
+
 ### Version 0.3.1 6/21/12
 * Checks for sqlite module
 
