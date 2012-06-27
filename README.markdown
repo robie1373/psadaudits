@@ -16,6 +16,9 @@
 * Improve installation help. Particularly unblocking the sqlite modules
 
 ## Changelog
+### Version 0.4.1 6/27/12
+* Put assess 5 group options into loops to make using the tool suck less.
+
 ### Version 0.4.0 6/26/12
 * Added ability to make a db of groups. For now you need to keep track of which is which on your own.
 * Added ability to mark groups as privileged, unpriviliged or skip.
