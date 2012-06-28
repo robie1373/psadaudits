@@ -1,6 +1,8 @@
 *.sqlite
 modules/column_list.psm1
 modules/insert-query.psm1
+*.png
+
 #################
 ## Eclipse
 #################
