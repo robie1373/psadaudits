@@ -1,0 +1,8 @@
+function find_old_passwords ($age=365) {
+
+  get_service_objects | foreach-object { 
+                            if (((get-date -format d) - (get-date -format d ($_.passwordlastset).AddDays($age))) -lt 0) {
+                            $_.samaccountname + "last changed password on " + $_.passwordlastset
+                            }
+  }
+  }

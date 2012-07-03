@@ -1,4 +1,5 @@
 # PSADAudits is for looking at and keeping track of AD
+* psadaudits is v0.5.0 7/3/12
 * psadaudits is v0.4.0 6/26/12
 * psadaudits is v0.3.0 6/20/12
 * psadaudits is v0.2.0 6/20/12
@@ -16,6 +17,9 @@
 * Improve installation help. Particularly unblocking the sqlite modules
 
 ## Changelog
+### Version 0.5.0 7/3/12
+* Added search for stale passwords in "Search for problems". Output automatically saved to a file in $dbdir.
+
 ### Version 0.4.1 6/27/12
 * Put assess 5 group options into loops to make using the tool suck less.
 
