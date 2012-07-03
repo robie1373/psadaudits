@@ -17,6 +17,9 @@
 * Improve installation help. Particularly unblocking the sqlite modules
 
 ## Changelog
+### Version 0.5.1 7/3/12
+* Added the Enabled property to Stale passords output.
+
 ### Version 0.5.0 7/3/12
 * Added search for stale passwords in "Search for problems". Output automatically saved to a file in $dbdir.
 
